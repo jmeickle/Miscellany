@@ -1,0 +1,9 @@
+rc.local: Runs a detached screen session on system boot under my username.
+
+.screenrc: Basic screenrc which does a bunch of commands. It also sets up the caption/hardstatus/xterm title/whatever stuff.
+
+.irssirc: Runs irssi-inside-of-dtach (this lets me exit screen without killing irssi).
+
+.irssi/config: irssi config settings.
+
+.irssi/scripts: A bunch of scripts that I don't want to lose.
