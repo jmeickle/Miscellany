@@ -1,0 +1,3 @@
+unset PROMPT_COMMAND
+echo -en "\033]2;IRSSI\007"
+dtach -A ~/.irssi_dtach -Ez irssi
