@@ -1,0 +1,79 @@
+%"The credit for these files goes to Michael DeCorte for the Résumé style file and to Chris Paciorek for the Résumé template."
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for James Meickle
+\documentclass[margin,line]{resume}
+
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{hyperref}
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+
+% Background picture.
+\AddToShipoutPicture{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering
+            \includegraphics[width=\paperwidth,height=\paperheight,
+             keepaspectratio]{background.png}
+            \vfill
+         }
+    }
+}
+
+% Name
+\name{\Large James Meickle}
+\begin{resume}
+
+    %__________________________________________________________________________________________________________________
+    % Contact
+    \section{\mysidestyle Contact}
+
+    61 University Heights Drive\hfill Phone: (860) 573-4976          \vspace{0mm}\\\vspace{0mm}%
+    Stony Brook, NY 11790\hfill Email: eronarn@gmail.com  \vspace{0mm}\\\vspace{-4.5mm}%
+    \hfill github: \href{https://github.com/Eronarn}{Eronarn}  \vspace{0mm}\\\vspace{-4.5mm}%
+    %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    \textbf{Central Connecticut State University} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Bachelor of Arts in Psychology \& Political Science} \hfill \textbf{June 2010}\vspace{-3mm}\\\vspace{-1mm}%
+
+    %__________________________________________________________________________________________________________________
+    % Employment
+    \section{\mysidestyle Employment}
+
+    \textbf{Institute for Municipal and Regional Policy}, Central Connecticut State University \vspace{2mm}\\\vspace{1mm}%
+    \textsl{University Assistant} \hfill \textbf{May 2009 -- July 2011}\\
+    Created an \href{http://www.ctreentry.info}{online resource repository} to address the lack of prisoner reentry services. Gave demonstrations to service providers, non-profits, and community groups. Provided public testimony to state government about proposed legislation. Assisted in planning a gubernatorial forum on drug policy.
+
+    \textbf{Infinity Interactive} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Freelance Drupal Developer} \hfill \textbf{July 2010 -- December 2010}\\
+    Performed server configuration, database administration, contrib module selection and configuration, creation of custom modules and themes, and establishment of content management workflows during the \href{http://www.coopervision.com}{CooperVision} website redesign.
+
+    \textbf{Computer Education Center}, University of Connecticut Health Center\vspace{2mm}\\\vspace{1mm}%
+    \textsl{Student Laborer} \hfill \textbf{November 2008 -- April 2009}\\
+    Provided technical support and training to medical students. Maintained computer classrooms and course-mandated laptops.
+
+    \textbf{Tutor.com}\vspace{2mm}\\\vspace{1mm}%
+    \textsl{Tutor} \hfill \textbf{October 2005 -- November 2007}\\
+    Tutored high school students in English, Math, and Science.
+
+    %__________________________________________________________________________________________________________________
+    % Skills
+    \section{\mysidestyle Skills} 
+
+    Using PHP and MySQL to create custom Drupal modules and modify existing code.\vspace{1mm}\\%
+    Designing custom Drupal themes using HTML, CSS, JavaScript, and jQuery.\vspace{1mm}\\%
+    Automating deployment of Drupal sites using shell scripting, version control, and build tools.\vspace{1mm}\\%
+    Configuring and administrating all LAMP stack components.\vspace{1mm}\\%
+    Developing games using C++, Java, and Python.\vspace{1mm}\\%
+
+%______________________________________________________________________________________________________________________
+\end{resume}
+\end{document}
+
+%______________________________________________________________________________________________________________________
+% EOF
