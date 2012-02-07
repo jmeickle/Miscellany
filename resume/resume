@@ -1,1 +1,1 @@
-pdflatex resume.tex James_Meickle_Resume.pdf
+pdflatex -jobname James_Meickle_Resume resume.tex
