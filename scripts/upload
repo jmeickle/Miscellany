@@ -1,0 +1,36 @@
+COMMAND=$1
+URL="http://eronarn.info/misc/uploads"
+DIR=/srv/http/misc/uploads
+M=$(date +%m)
+D=$(date +%d)
+Y=$(date +%y)
+T=$(date +%s)
+FILE=$T.txt
+OUTPUT="input: $COMMAND
+output:
+
+"
+
+cd $DIR
+
+if [ ! -d "$Y" ]; then
+    mkdir $Y
+fi
+
+cd $Y
+
+if [ ! -d "$M" ]; then
+    mkdir $M
+fi
+
+cd $M
+
+if [ ! -d "$D" ]; then
+    mkdir $D
+fi
+
+cd $D
+
+OUTPUT=$OUTPUT$(eval $COMMAND)
+echo -e "$OUTPUT" > $FILE
+echo $URL/$Y/$M/$D/$FILE
