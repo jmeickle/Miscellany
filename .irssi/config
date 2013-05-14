@@ -330,22 +330,12 @@ windows = {
       {
         type = "CHANNEL";
         chat_type = "IRC";
-        name = "#cataclysmrl";
-        tag = "Quakenet";
-      }
-    );
-  };
-  10 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
         name = "#gattai";
         tag = "SynIRC";
       }
     );
   };
-  11 = {
+  10 = {
     items = (
       {
         type = "CHANNEL";
@@ -355,23 +345,13 @@ windows = {
       }
     );
   };
-  12 = {
+  11 = {
     items = (
       {
         type = "CHANNEL";
         chat_type = "IRC";
         name = "##gooncrawl";
         tag = "Freenode";
-      }
-    );
-  };
-  13 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#partyhard";
-        tag = "SynIRC";
       }
     );
   };
