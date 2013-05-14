@@ -24,7 +24,7 @@ servers = (
     autoconnect = "yes";
   },
   {
-    address = "hastur";
+    address = "localhost";
     chatnet = "Hastur";
     port = "6667";
     use_ssl = "no";
