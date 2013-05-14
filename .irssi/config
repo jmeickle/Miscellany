@@ -58,12 +58,12 @@ channels = (
     chatnet = "Freenode";
     autojoin = "Yes";
   },
+  { name = "#appneta"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#gattai"; chatnet = "SynIRC"; autojoin = "Yes"; },
   { name = "#sal"; chatnet = "SynIRC"; autojoin = "Yes"; },
   { name = "#rgrd"; chatnet = "Quakenet"; autojoin = "Yes"; },
-  { name = "#cataclysmrl"; chatnet = "Quakenet"; autojoin = "Yes"; },
   { name = "#rgrd-ot"; chatnet = "Quakenet"; autojoin = "yes"; },
-  { name = "#partyhard"; chatnet = "SynIRC"; autojoin = "yes"; },
+  { name = "#bdsm"; chatnet = "SynIRC"; autojoin = "yes"; },
   { name = "##gooncrawl"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
